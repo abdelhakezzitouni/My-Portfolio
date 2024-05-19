@@ -29,4 +29,14 @@ export const Data =[
         skill2:'CSS',
         skill3:'JavaScript',
     },
+    {
+        key:4,
+        nameProject:'Portfolio v1',
+        description:'A modern model for the Portfolio website to introduce the person, his skills, and his latest work',
+        github:'https://github.com/abdelhakezzitouni/Portfolio-v1',
+        view:'https://portfolioo-v1.netlify.app/',
+        skill1:'HTML',
+        skill2:'CSS',
+        skill3:'JavaScript',
+    },
 ]
