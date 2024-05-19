@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.about-title h1{
+    font-size: 2rem;
+    padding-right: 30px;
+    opacity: .9;
+
+}
+
+.about-title hr{
+    width: 100%;
+    border: 1.7px solid #fff;
+    opacity: .9;
+
+}
+
+.about-body{
+    margin-top: 20px;
+}
+
+.about-desc{
+    font-size: 1.1rem;
+    opacity: .9;
+    padding-left: 10px;
+}
+
+.about-desc span{
+    font-weight: 800;
+}
+
+
+@media (max-width:500px) {
+    .about-title h1{
+        padding-right: 40px;
+    
+    }
+}

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.data-post{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background: #0d1b2a;
+    padding-left: 100px;
+    padding-top: 100px;
+    color: #fff;
+}
+
+
+.disc1{
+    font-size: 1.3rem;
+    color: #ef233c;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.disc2{
+    font-size: 2.4rem;
+    margin-bottom: 60px;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.btn button{
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-size: 1.1rem;
+    background: #ef233c;
+    border: #ef233c 2px solid;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.btn button:hover{
+    background: none;
+    color: #ef233c;
+}
+
+.socails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.socails a{
+    text-decoration: none;
+    color: unset;
+}
+
+.socails svg{
+    width: 40px;
+    margin-right: 8px;
+    opacity: .7;
+    transition: .4s;
+}
+
+.socails svg:hover{
+    opacity: 1;
+    scale: .95;
+}
+
+@media (max-width:1257px) {
+
+    .disc1{
+        font-size: 1.2rem;
+    }
+
+    .name{
+        font-size: 3rem;
+        font-weight: 800;
+        
+    }
+
+    .disc2{
+        font-size: 2rem;
+    }
+
+
+}
+
+@media (max-width:1110px) {
+
+    .disc1{
+        margin-bottom: 5px;
+    }
+
+    .name{
+        font-size: 2.5rem;    
+
+    }
+        
+}
+
+@media (max-width:980px) {
+
+    .data-post{
+        padding-left: 50px;
+
+    }
+}
+
+@media (max-width:880px) {
+
+    .data-post{
+        width: 100vw;
+        height: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .data-post{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    
+}
+
+@media (max-width:392px) {
+    
+    .data-post{
+        padding-top:50px;
+        color: #fff;
+    }
+
+    .disc1{
+        font-size: 1.2rem;
+    }
+
+    .name{
+        font-size: 2rem;
+        font-weight: 700;
+        
+    }
+
+    .disc2{
+        font-size: 1.5rem;
+    }
+}
